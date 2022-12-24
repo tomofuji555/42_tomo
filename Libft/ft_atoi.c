@@ -22,11 +22,3 @@ int ft_atoi(char *str)
     }
     return (check * num);
 }
-
-#include <stdio.h>
-
-int main()
-{
-    char str1[] = "   ---+--+123456789ab567";
-	printf("%d", ft_atoi(str1));
-}
